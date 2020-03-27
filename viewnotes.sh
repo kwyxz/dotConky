@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat ~/notes.txt | sed 's/^/ \${color #ddddff}x  \$color /g'
+sed 's/^/ \${color #ddddff}x  \$color /g' ${HOME}/notes.txt
