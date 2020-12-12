@@ -57,4 +57,4 @@ ${voffset -70}${goto 278}${cpugraph 50,285 d5dcde ffffff}
 ${voffset -8}${goto 285}${time %A, %d %B %Y}
 ${if_mpd_playing}${voffset -32}${alignr}${font Santana:size=10}${mpd_title} ${mpd_elapsed} [${mpd_length}]
 ${alignr}${mpd_artist} / ${mpd_album} ($mpd_date)
-${alignr}${execp ./mpc-getinfo.sh}${image /home/kwyxz/.Conky//cover.jpg -p 780,3 -s 140x140 -f 2}${endif}
+${alignr}${execp /home/kwyxz/.Conky/mpc-getinfo.sh}${image /home/kwyxz/.Conky/cover.jpg -p 780,3 -s 140x140 -f 2}${endif}
