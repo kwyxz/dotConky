@@ -58,7 +58,7 @@ ${font Santana:size=12}  Root   ${fs_used /}/${fs_size /}                Space  
 ${voffset 105}${goto 123}${font Santana:size=24}${time %H:%M}${voffset -10}${font Santana:size=10}${font}
 ${voffset -28}${goto 268}${hr 2}
 ${voffset -70}${goto 278}${cpugraph 50,285 d5dcde ffffff}
-${voffset -8}${goto 285}${time %A, %d %B %Y}
+${voffset -8}${goto 285}${font Santana:size=16}${time %A, %d %B %Y}
 # ${if_mpd_playing}${voffset -32}${alignr}${font Santana:size=10}${mpd_title} ${mpd_elapsed} [${mpd_length}]
 # ${alignr}${mpd_artist} / ${mpd_album} ($mpd_date)
 # ${alignr}${execp /home/kwyxz/.Conky/mpc-getinfo.sh}${image /home/kwyxz/.Conky/cover.jpg -p 780,3 -s 140x140 -f 2}${endif}
